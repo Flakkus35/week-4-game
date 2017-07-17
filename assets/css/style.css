@@ -1,0 +1,98 @@
+h1 {
+	text-align: center;
+	font-size: 30px;
+	padding: 20px;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-family: 'Russo One', sans-serif;
+}
+
+body {
+	background: url("../images/background2.png");
+}
+
+p {
+	font-size: 20px;
+}
+
+.mainbody {
+	max-width: 950px;
+	margin: auto;
+}
+
+/* Instructions area */
+.instruct {
+	max-width: 400px;
+	height: 305px;
+	float: left;
+	padding: 10px;
+	background: #f1dfb0;
+}
+/* --------------- */
+
+/* Wins and Losses area */
+.scoreboard {
+	width: 200px;
+	height: 305px;
+	float: right;
+	padding: 10px;
+	margin-left: 20px;
+	background: #01463b;
+	color: white;
+}
+/* --------------- */
+
+/* Target number area*/
+#randomscore {
+	width: 200px;
+	height: 305px;
+	float: right;
+	padding: 10px;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	background: #01463b;
+	color: white;
+}
+/* --------------- */
+
+/* Player score areas*/
+.targetscore {
+	width: 100%;
+	text-align: center;
+	float: left;
+	height: 40px;
+	padding-top: 10px;
+	background: white;
+	margin-bottom: 5px;
+}
+
+#currentscore {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	height: 60px;
+	background: white;
+	padding-top: 20px
+}
+/* --------------- */
+
+/* Crystal div */
+.crystal {
+	max-width: 900px;
+	margin: auto;
+}
+
+.gem {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 20px;
+	float: left;
+	margin-left: 20px;
+	background: white;
+}
+/* --------------- */

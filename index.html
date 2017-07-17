@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	<h1>CRYSTAL COLLECTOR!</h1>
+
+	<!-- Wraps all content but header into div -->
+	<div class="mainbody">
+		<!-- Instructions div -->
+		<div class="instruct">
+			<p>You will be given a random number at the start of the game.</p>
+			<br>
+			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			<br>
+			<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+			<br>
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+			<br>
+			<p>Each time when the game starts, the game will change the values of each crystal.</p>
+		</div>
+		<!-- Wins/Losses div -->
+		<div class="scoreboard">
+			<p>Wins: <span id="wins">0</span></p>
+			<br>
+			<p>Losses: <span id="losses">0</span></p>
+		</div>
+		<!-- Target number for player to reach -->
+		<div id="randomscore">0</div>
+		<!-- Sets up crystal images -->
+		<div class="crystal">
+			<img class="gem" id="redgem" src="assets/images/redgem.jpg" alt="Red Gem" width="150" height="150">
+			<img class="gem" id="bluegem" src="assets/images/bluegem.png" alt="Blue Gem" width="150" height="150">
+			<img class="gem" id="greengem" src="assets/images/greengem.png" alt="Green Gem" width="150" height="150">
+			<img class="gem" id="purplegem" src="assets/images/purplegem.png" alt="Purple Gem" width="150" height="150">
+		</div>
+		<!-- Divs for player's total score -->
+		<div class="targetscore">
+			<p>Your total score is:</p>
+		</div>
+		<div id="currentscore">0</div>
+	</div>
+
+<script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
